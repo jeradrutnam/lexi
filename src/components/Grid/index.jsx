@@ -3,11 +3,11 @@ import classNames from 'classnames';
 
 class Row extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
+    constructor(props) {
+        super(props);
+    }
 
-  render() {
+    render() {
         const { className, htmlTag } = this.props;
         
         const Component = htmlTag || 'div';
