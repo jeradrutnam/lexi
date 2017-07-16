@@ -14,7 +14,7 @@ class Header extends React.Component {
         const defaultClasses = 'header header-default';
         
         return (
-            <Component className={classNames(className, defaultClasses)}>{ this.props.children }</Component>
+            <Component className={ classNames(className, defaultClasses) }>{ this.props.children }</Component>
         );
     }
     

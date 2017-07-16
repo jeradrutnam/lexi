@@ -14,7 +14,7 @@ class Row extends React.Component {
         const defaultClasses = 'row';
         
         return (
-            <Component className={classNames(className, defaultClasses)}>{ this.props.children }</Component>
+            <Component className={ classNames(className, defaultClasses) }>{ this.props.children }</Component>
         );
     }
 

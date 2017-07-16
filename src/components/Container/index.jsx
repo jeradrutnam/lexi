@@ -8,16 +8,20 @@ class Container extends React.Component {
     }
 
     render() {
-        const { className, htmlTag } = this.props;
+        const { className, htmlTag, fluid } = this.props;
         
         const Component = htmlTag || 'div';
-        const defaultClasses = 'container';
+        const defaultClasses = (fluid) ? 'container-fluid' : 'container';
         
         return (
-            <Component className={classNames(className, defaultClasses)}>{ this.props.children }</Component>
+            <Component className={ classNames(className, defaultClasses) }>{ this.props.children }</Component>
         );
     }
 
 }
+
+Container.defaultProps = {
+    fluid: true,
+};
 
 export default Container;
