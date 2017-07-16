@@ -1,16 +1,22 @@
 import React from 'react';
+import classNames from 'classnames';
 
 class Container extends React.Component {
 
-  constructor(props) {
-    super(props);
-  }
+    constructor(props) {
+        super(props);
+    }
 
-  render() {
-    return (
-      <div className='container'>{ this.props.children }</div>
-    );
-  }
+    render() {
+        const { className, htmlTag } = this.props;
+        
+        const Component = htmlTag || 'div';
+        const defaultClasses = 'container';
+        
+        return (
+            <Component className={classNames(className, defaultClasses)}>{ this.props.children }</Component>
+        );
+    }
 
 }
 
