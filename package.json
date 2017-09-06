@@ -24,13 +24,15 @@
     "node-sass": "^4.5.2",
     "css-loader": "^0.26.2",
     "sass-loader": "^6.0.3",
-    "extract-text-webpack-plugin": "^2.1.0"
+    "extract-text-webpack-plugin": "^2.1.0",
+    "npm-package-json-lint": "^2.5.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
   },
   "scripts": {
     "dev": "webpack -d --watch",
-    "bui" : "webpack -p"
+    "build" : "webpack -p",
+    "test": "pjl-cli -f package.json --rules-file ./.npmpackagejsonlintrc.json"
   }
 }

@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var npmPackageJsonLint = require("npm-package-json-lint");
 
 var extractThemes = new ExtractTextPlugin('./[name].css');
 

@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.953);
+    
+    &.header-fixed {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+    }
+    
+    & .header-brand {
+        height: 100%;
+        display: inline-block;
+        font-size: 26px;
+        padding-top: 6px;
+    }
+}

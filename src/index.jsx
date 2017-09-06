@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import {Container, Header} from './components';
+import {Container, Header, HeaderBrand} from './components';
 
 class App extends React.Component {
     
@@ -11,7 +11,9 @@ class App extends React.Component {
     render() {
         return (
           <Container>
-                <Header>Project Lexi</Header>
+                <Header>
+                    <HeaderBrand>Project Lexi</HeaderBrand>
+                </Header>
           </Container>
         );
     }

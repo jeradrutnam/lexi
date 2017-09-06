@@ -273,8 +273,25 @@ template {
 .container {
   margin-right: auto;
   margin-left: auto; }
+  .container-fluid {
+    width: 100%; }
 
-.container-fluid {
+.header {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto; }
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+  background: rgba(0, 0, 0, 0.953); }
+  .header.header-fixed {
+    position: fixed;
+    left: 0px;
+    top: 0px; }
+  .header .header-brand {
+    height: 100%;
+    display: inline-block;
+    font-size: 26px;
+    padding-top: 6px; }
