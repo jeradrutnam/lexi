@@ -1,6 +1,11 @@
-# Lexi
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jeradrutnam/lexi/master/resources/logo.png" width="300">
+  <p align="center">
+      <a href="http://facebook.github.io/react" target="_blank">React</a> based components framework for easy web development.
+  </p>
+</p>
 
-Components built with [React][react].
+<br>
 
 ## Local setup
 
