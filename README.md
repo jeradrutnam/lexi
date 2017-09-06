@@ -5,8 +5,6 @@
   </p>
 </p>
 
-<br>
-
 ## Local setup
 
 - Install the dependencies with `npm install`
