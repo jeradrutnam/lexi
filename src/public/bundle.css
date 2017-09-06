@@ -284,14 +284,16 @@ template {
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  color: white;
-  background: rgba(0, 0, 0, 0.953); }
+  color: #fefefe;
+  background: #1c2c44; }
   .header.header-fixed {
     position: fixed;
     left: 0px;
     top: 0px; }
-  .header .header-brand {
+  .header > .header-brand {
     height: 100%;
     display: inline-block;
-    font-size: 26px;
-    padding-top: 6px; }
+    font-size: 26px; }
+    .header > .header-brand > img.logo {
+      max-height: 100%;
+      padding: 15px 0; }

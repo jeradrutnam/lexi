@@ -12,7 +12,7 @@ class App extends React.Component {
         return (
           <Container>
                 <Header>
-                    <HeaderBrand>Project Lexi</HeaderBrand>
+                    <HeaderBrand><img src={'./images/logo.png'} alt="Project Lexi" className="logo"/></HeaderBrand>
                 </Header>
           </Container>
         );
