@@ -1,3 +1,5 @@
+** IMPORTANT:- _Please note that this is a pilot project and not suitable for production yet_ **
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/jeradrutnam/lexi/master/resources/logo.png" width="300">
   <p align="center">

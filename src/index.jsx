@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
-import {Container, Header, HeaderBrand} from './components';
+import {Container, Header, HeaderBrand, HeaderUser, Navbar} from './components';
+import NavData from './data/nav.js';
 
 class App extends React.Component {
     
@@ -13,6 +14,8 @@ class App extends React.Component {
           <Container>
                 <Header>
                     <HeaderBrand><img src={'./images/logo.png'} alt="Project Lexi" className="logo"/></HeaderBrand>
+                    <Navbar data={NavData} />
+                    <HeaderUser>Guest User</HeaderUser>
                 </Header>
           </Container>
         );

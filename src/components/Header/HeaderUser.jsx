@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-class HeaderBrand extends React.Component {
+class HeaderUser extends React.Component {
 
     constructor(props) {
         super(props);
@@ -11,7 +11,7 @@ class HeaderBrand extends React.Component {
         const { className, htmlTag } = this.props;
         
         const Component = htmlTag || 'div';
-        let defaultClasses = 'header-brand';
+        let defaultClasses = 'header-user';
         
         return (
             <Component className={ classNames(className, defaultClasses) }>{ this.props.children }</Component>
@@ -20,4 +20,4 @@ class HeaderBrand extends React.Component {
     
 }
 
-export default HeaderBrand;
+export default HeaderUser;
